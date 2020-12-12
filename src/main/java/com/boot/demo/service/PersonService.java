@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
 /**
  * @author Mohammed Amr
  * @created 12/12/2020 - 16:14
@@ -24,5 +28,13 @@ public class PersonService {
 
     public int addPerson(Person person) {
         return personDao.insertPerson(person);
+    }
+
+    public List<Person> getAllPeople() {
+        return personDao.selectAllPeople();
+    }
+
+    public Optional<Person> getPersonById(UUID id) {
+        return personDao.selectPersonById(id);
     }
 }
