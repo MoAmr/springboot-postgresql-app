@@ -5,7 +5,7 @@
 
 ## How to install a docker image:-
 
-![Download postgres docker image](https://hub.docker.com/_/postgres)
+[Download postgres docker image](https://hub.docker.com/_/postgres)
 
 ## How to start a postgres instance on docker:-
 
