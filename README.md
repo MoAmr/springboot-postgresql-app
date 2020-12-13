@@ -85,3 +85,6 @@ demodb=# \dt
 ```console
 demodb=# \d person
 ```
+
+## POSTMAN REST API Resources:-
+[Spring-boot-postgresql-demo POSTMAN REST API Resources](https://www.getpostman.com/collections/a6e02d1f42f21e401697)
